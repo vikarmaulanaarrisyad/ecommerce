@@ -6,9 +6,9 @@ class UChipTheme {
 
   static ChipThemeData lightChipTheme = ChipThemeData(
     disabledColor: UColors.grey.withAlpha(1),
-    labelStyle: TextStyle(color: UColors.black),
+    labelStyle: const TextStyle(color: UColors.black),
     selectedColor: UColors.primary,
-    padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
+    padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
     checkmarkColor: UColors.warning,
   );
 
