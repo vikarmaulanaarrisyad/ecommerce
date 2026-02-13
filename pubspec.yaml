@@ -15,6 +15,9 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.4
+  lottie: ^3.2.0
+  smooth_page_indicator: ^2.0.1
+  get: ^4.7.3
 
 #----------------------------------
 dev_dependencies:
@@ -28,7 +31,8 @@ flutter:
 
   #-------------[ASSETS]------------
   assets:
-    - assets/logo
+    - assets/logo/
+    - assets/animations/
 
   fonts:
     - family: "Nunito"
